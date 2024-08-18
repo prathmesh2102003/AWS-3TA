@@ -43,3 +43,9 @@ How To Create User and Grant Privileges Database To New User :
 
 How To Set Password to MySQL :
 ALTER USER 'username'@'localhost' IDENTIFIED BY 'password';
+
+connect RDS
+sudo mysql -u username -p -h database-endpoint.region.rds.amazonaws.com
+
+connect ec2 (if your database in ec2)
+sudo mysql -u username -p
