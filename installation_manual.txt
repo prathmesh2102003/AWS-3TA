@@ -40,3 +40,6 @@ How To Create User and Grant Privileges Database To New User :
  CREATE USER 'username'@'app-tier-pvt-ip' IDENTIFIED BY 'password';
  GRANT ALL PRIVILEGES ON *.* TO 'usename'@'app-tier-pvt-ip’;
  FLUSH PRIVILEGES;
+
+How To Set Password to MySQL :
+ALTER USER 'username'@'localhost' IDENTIFIED BY 'password';
