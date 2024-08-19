@@ -11,7 +11,7 @@ echo $gender;
 echo $comment;
 echo $website;
 
-$servername = "db-server-pvt-ip";
+$servername = "db-server-pvt-ip/RDS-endpoint";
 $username = "your-username";
 $password = "your-password";
 $dbname = "your-db-name";
