@@ -49,3 +49,7 @@ sudo mysql -u username -p -h database-endpoint.region.rds.amazonaws.com
 
 connect ec2 (if your database in ec2)
 sudo mysql -u username -p
+
+
+You can also enable monitering and set alarms like CPUutilization and many more using CloudWatch and
+create subscription for SNS service.
